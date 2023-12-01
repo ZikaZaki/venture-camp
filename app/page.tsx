@@ -1,3 +1,4 @@
+import Guide from "@/components/Guide";
 import Hero from "@/components/Hero";
 import Services from "@/components/Services";
 import Image from "next/image";
@@ -7,7 +8,7 @@ export default function Home() {
     <>
       <Hero />
       <Services />
-      {/* Camp */}
+      <Guide />
       {/* Guide */}
       {/* Features */}
       {/* GetApp */}
