@@ -3,9 +3,7 @@ import Button from "./Button";
 
 const Hero = () => {
   return (
-    <section className="max-container padding-container flex flex-col gap-10 py-10 pb-32 md:gap-8 md:flex-row lg:py-20 ">
-      <div className="hero-map" />
-
+    <section className="max-container padding-container flex flex-col gap-20 py-10 pb-32 md:gap-10 lg:gap-20 lg:py-20 md:flex-row">
       <div className="relative z-20 flex flex-1 flex-col xl:w-1/2">
         <Image
           src="/camp.svg"
@@ -14,7 +12,7 @@ const Hero = () => {
           height={50}
           className="absolute left-[-5px] top-[-30px] w-10 lg:w-[50px]"
         />
-        <h1 className="bold-52 lg:bold-88">Premium Numbers</h1>
+        <h1 className="bold-52 lg:bold-88">Camp Way</h1>
         <p className="regular-16 mt-6 text-gray-30 xl:max-w-[520px]">
           Premium numbers are telephone numbers with a call rate per minute or
           per call. That makes these numbers extremely suitable for services
@@ -38,13 +36,13 @@ const Hero = () => {
 
           <p className="bold-16 lg:bold-20 text-blue-70">
             198k
-            <span className="regular-16 lg:regular-20 ml-1">
+            <span className="regular-16 lg:regular-20 ml-2">
               Excellent Reviews
             </span>
           </p>
         </div>
 
-        <div className="flex flex-col w-full gap-3 sm:flex-row">
+        <div className="flex flex-col w-full sm:flex-row">
           <Button type="button" title="Download App" variant="btn_green" />
           <Button
             type="button"
@@ -55,8 +53,9 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="relative flex flex-1 justify-center md:justify-end items-start md:top-5">
-        <div className="relative z-20 w-[320px] flex flex-col gap-6 rounded-3xl bg-green-90 px-5 py-6">
+      <div className="relative flex flex-1 justify-center items-start lg:top-6 md:justify-start">
+        <div className="hero-map" />
+        <div className="relative z-20 w-[320px] flex flex-col gap-8 rounded-3xl bg-green-90 px-5 py-6">
           <div className="flex flex-col">
             <div className="flexBetween">
               <p className="regular-16 text-gray-20">Location</p>
