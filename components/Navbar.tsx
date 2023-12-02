@@ -8,8 +8,8 @@ const Navbar = () => {
     <nav className="flexBetween max-container padding-container relative z-30 py-5">
       <Link href="/">
         <Image
-          src="/logo4.svg"
-          alt="PremiumNumbers Logo"
+          src="/venturecamp-logo.svg"
+          alt="VentureCamp Logo"
           width={182}
           height={29}
         />

@@ -12,11 +12,13 @@ const Hero = () => {
           height={50}
           className="absolute left-[-5px] top-[-30px] w-10 lg:w-[50px]"
         />
-        <h1 className="bold-52 lg:bold-88">Camp Way</h1>
+        <h1 className="bold-52 lg:bold-88">Venture Camp</h1>
         <p className="regular-16 mt-6 text-gray-30 xl:max-w-[520px]">
-          Premium numbers are telephone numbers with a call rate per minute or
-          per call. That makes these numbers extremely suitable for services
-          with which you want to earn money.
+          Venture Camp is a platform that helps you find the best campgrounds
+          for your next adventure. We provide ratings, reviews, and photos of
+          thousands of campgrounds around the world. Whether you’re looking for
+          an RV park or just want to pitch your tent in the woods, we’ve got you
+          covered.
         </p>
 
         <div className="my-11 flex flex-wrap gap-5">

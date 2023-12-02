@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Premium Numbers",
-  description: "Premium Numbers UI/UX Design",
+  title: "Venture Camp",
+  description: "Venture Camp UI/UX Design",
 };
 
 export default function RootLayout({
@@ -17,7 +18,7 @@ export default function RootLayout({
       <body>
         <Navbar />
         <main className="relative overflow-hidden">{children}</main>
-        {/* FOOTER */}
+        <Footer />
       </body>
     </html>
   );
