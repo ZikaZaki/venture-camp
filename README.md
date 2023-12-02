@@ -2,26 +2,24 @@
 
 ![VentureCamp](/venturecamp-screenshot.png)
 
+## Table of Contents
+
+- [Description](#description)
+- [Getting Started](#getting-started)
+  - [Installation](#installation)
+  - [Usage](#usage)
+- [Technical Overview](#technical-overview)
+  - [Technologies](#technologies)
+  - [Features](#features)
+- [Future Development](#future-development)
+- [Links](#links)
+- [Questions](#questions)
+- [Contact](#contact)
+- [License](#license)
+
 ## Description
 
 VentureCamp is a web application that allows users to find the perfect campsite for their next adventure. Users can search for campsites by location, view campsite details, and save campsites to their profile. VentureCamp is a UX/UI web application built with Next.js, React, and Tailwind CSS. The application is deployed on Vercel and can be found [here](https://venture-camp.vercel.app/).
-
-## Table of Contents
-
-- [Venture-Camp UX/UI](#venture-camp-uxui)
-  - [Description](#description)
-  - [Table of Contents](#table-of-contents)
-  - [Getting Started](#getting-started)
-    - [Installation](#installation)
-    - [Usage](#usage)
-  - [Technical Overview](#technical-overview)
-    - [Technologies](#technologies)
-    - [Features](#features)
-  - [Future Development](#future-development)
-  - [Links](#links)
-  - [Questions](#questions)
-  - [Contact](#contact)
-  - [License](#license)
 
 ## Getting Started
 
