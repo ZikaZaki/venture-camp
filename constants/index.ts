@@ -1,9 +1,9 @@
 // NAVIGATION
 export const NAV_LINKS = [
   { href: "/", key: "home", label: "Home" },
-  { href: "/", key: "how_hilink_work", label: "How Hilink Work?" },
+  { href: "/", key: "how_venturecamp_work", label: "How it Works?" },
   { href: "/", key: "services", label: "Services" },
-  { href: "/", key: "pricing ", label: "Pricing " },
+  { href: "/", key: "features ", label: "Features " },
   { href: "/", key: "contact_us", label: "Contact Us" },
 ];
 
@@ -29,7 +29,7 @@ export const FEATURES = [
     icon: "/calendar.svg",
     variant: "green",
     description:
-      "Schedule an adventure with friends. On holidays, there are many interesting offers from Hilink. That way, there's no more discussion",
+      "Schedule an adventure with friends. On holidays, there are many interesting offers from VentureCamp. That way, there's no more discussion",
   },
   {
     title: "Technology using augment reality",
@@ -52,7 +52,7 @@ export const FOOTER_LINKS = [
   {
     title: "Learn More",
     links: [
-      "About Hilink",
+      "About Us",
       "Press Releases",
       "Environment",
       "Jobs",
@@ -61,26 +61,26 @@ export const FOOTER_LINKS = [
     ],
   },
   {
-    title: "Our Community",
-    links: ["Climbing xixixi", "Hiking hilink", "Hilink kinthill"],
+    title: "Account",
+    links: ["Blog", "Forum", "Help Center", "Guidelines", "Terms of Use"],
   },
 ];
 
 export const FOOTER_CONTACT_INFO = {
   title: "Contact Us",
   links: [
-    { label: "Admin Officer", value: "123-456-7890" },
-    { label: "Email Officer", value: "hilink@akinthil.com" },
+    { label: "Admin Officer", value: "+967-773-038525" },
+    { label: "Email Officer", value: "venturecamp@zack.com" },
   ],
 };
 
 export const SOCIALS = {
   title: "Social",
   links: [
-    "/facebook.svg",
-    "/instagram.svg",
-    "/twitter.svg",
-    "/youtube.svg",
-    "/wordpress.svg",
+    { href: "/", key: "facebook", label: "Facebook", icon: "/facebook.svg" },
+    { href: "/", key: "instagram", label: "Instagram", icon: "/instagram.svg" },
+    { href: "/", key: "twitter", label: "Twitter", icon: "/twitter.svg" },
+    { href: "/", key: "youtube", label: "Youtube", icon: "/youtube.svg" },
+    { href: "/", key: "wordpress", label: "Wordpress", icon: "/wordpress.svg" },
   ],
 };

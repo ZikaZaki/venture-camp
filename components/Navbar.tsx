@@ -5,15 +5,16 @@ import Button from "./Button";
 
 const Navbar = () => {
   return (
-    <nav className="border-2 border-red-500 flexBetween max-container padding-container relative z-30 py-5">
+    <nav className="flexBetween max-container padding-container relative z-30 py-5">
       <Link href="/">
         <Image
-          src="/logo4.svg"
-          alt="PremiumNumbers Logo"
-          width={233} height={29}
+          src="/venturecamp-logo.svg"
+          alt="VentureCamp Logo"
+          width={182}
+          height={29}
         />
       </Link>
-      <ul className="hidden h-full gap-12 lg:flex">
+      <ul className="hidden h-full gap-8 lg:flexBetween">
         {NAV_LINKS.map((link) => (
           <Link
             href={link.href}
@@ -24,7 +25,7 @@ const Navbar = () => {
           </Link>
         ))}
       </ul>
-      <div className="lg:flexCenter hidden">
+      <div className="hidden lg:flexCenter">
         <Button
           type="button"
           title="Sign In"
@@ -41,7 +42,7 @@ const Navbar = () => {
         className="inline-block cursor-pointer lg:hidden"
       />
     </nav>
-  )
+  );
 };
 
 export default Navbar;
