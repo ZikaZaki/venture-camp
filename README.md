@@ -77,7 +77,7 @@ If you have any questions, please contact me at [ZikaZaki](<mailto:zika.github@g
 
 - [Portfolio](https://zikazaki.com).
 - [LinkedIn](https://www.linkedin.com/in/zikazaki/).
-- [Twitter](https://twitter.com/KhamisiZakariya).
+- [Twitter](https://twitter.com/ZakariyaKhamisi).
 - [Medium](https://zikazaki.medium.com/).
 
 ## License
